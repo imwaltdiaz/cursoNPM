@@ -1,0 +1,34 @@
+{
+  "name": "cursonpm",
+  "version": "1.0.0",
+  "description": "Construir un paquete para node ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imwaltdiaz/cursoNPM.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Walter Diaz <walter@waltdiaz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imwaltdiaz/cursoNPM/issues"
+  },
+  "homepage": "https://github.com/imwaltdiaz/cursoNPM#readme",
+  "dependencies": {
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "date-fns": "^2.28.0",
+    "webpack": "^5.72.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
