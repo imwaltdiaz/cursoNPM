@@ -4,7 +4,9 @@
   "description": "Construir un paquete para node ",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hola": "node",
+    "deploy": "npm run format && npm run build"
   },
   "repository": {
     "type": "git",
